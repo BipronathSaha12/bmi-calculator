@@ -1,6 +1,7 @@
-# BMI Calculator
+# bmi-calculator
 
-*_BMI Calculator_*  project is done HTML5, CSS3, Bootstrap4 and Vanilla JavaScript.
+*_BMI_* means body mass index. Body Mass Index (BMI) is a person's weight in kilograms divided by the square of height in meters. A high BMI can indicate high body fatness.
+In this project we have created a calculator which can calculate the bmi and gives the value of our bmi on the basis of our coreesponding height and weight.
 
 
 ## Deployment
@@ -13,16 +14,8 @@ Visit Here:
     https://bmicalculators.netlify.app/
 ```
 
-### Mobile Friendly Test  and W3c Validation 
-
-This BMI calculator is completely mobile friendly and it also W3C validated.
-
-- {Mobile Friendly Check](https://search.google.com/test/mobile-friendly?id=cyumpuxLXMpu0WvhySuwgQ)
-
-- [W3C Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbmicalculators.netlify.app%2F)
-
 ## Authors
 
-- [@BipronathSaha99](https://github.com/BipronathSaha12/)
+- [@BipronathSaha12](https://github.com/BipronathSaha12/)
 
-  
+ 
