@@ -1,0 +1,56 @@
+/*==================================================
+                Common Style
+===================================================*/
+body{
+    background: url('/src/assets/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, sans-serif; 
+    font-size: 16px; 
+    color:#fff;
+}
+
+/*=========================================================================
+                                Card Design
+===========================================================================*/
+
+.card-header{
+    background-color: #f00;
+}
+
+.card-header h1{
+    font-size: 35px; 
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/*==========================================================================
+                        Responsive Design
+===========================================================================*/
+
+/*Extra Small Device*/
+@media only screen and (min-width:200px) and (max-width:500px){
+    .card-header h1{font-size: 25px;}
+}
+
+/*Extra Extra small device*/
+@media only screen and (min-width:200px) and (max-width:385px){
+    .card-header h1{font-size: 20px;}
+    .card-footer h6{font-size: 15px;}
+    button{display: block; margin-bottom: 5px;}
+}
